@@ -42,7 +42,7 @@ const CardMovie: React.FC<CardMovieProps> = async ({ props }) => {
     bgColor = "bg-yellow-200 text-yellow-500";
     iconClass = "fa-hand"; 
   }
-
+  
   return (
     <div className="max-w-sm rounded overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300">
       <div className="w-full h-72 relative">
